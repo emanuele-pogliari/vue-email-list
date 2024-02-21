@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(254, 160, 78);
+    font-family: "Nunito Sans", sans-serif;
+}
+
+#app {
+    height: 100vh;
+}
+
+
+li {
+    border-bottom: 1px solid;
+}

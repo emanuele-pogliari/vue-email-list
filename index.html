@@ -19,9 +19,9 @@
 
     <div id="app">
         <div class="container">
-            <h1 class="my-3">Email random list Boolean</h1>
+            <h1 class="my-3">Random List Email Boolean</h1>
             <div class="row">
-                <ul class="list-group">
+                <ul v-if="mails.length == 10" class="list-group">
                     <li v-for="(mail, index)  in mails" class="list-group-item">
                         {{mail.response}}
                     </li>
